@@ -14,7 +14,8 @@ body {
 }
 
 p {
-	padding: 10px;
+	padding: 5px;
+
 }
 
 .content-box {
@@ -40,14 +41,14 @@ p {
 	font-family: 'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
-	margin-bottom: 0px;
+	
 }
 
 
 .motto {
 	font-style: italic;
 	font-size: 120%;
-	margin-top: -10px;
+	
 }
 
 nav  {
@@ -94,7 +95,7 @@ nav a:hover {
 .mail {
 	text-decoration: none;
 }
-.mail:link,
-.mail:visited {
+
+.mail:hover {
 	text-decoration: underline;
 }
