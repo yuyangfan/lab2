@@ -13,6 +13,10 @@ body {
     padding: 10px;
 }
 
+p {
+	padding: 10px;
+}
+
 .content-box {
 	width: 80%;
 	background-color: #FFF;
@@ -22,26 +26,37 @@ body {
 
 .logo {
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.right-pic {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;	
 }
 
 .title {
 	font-family: 'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
+	margin-bottom: 0px;
 }
+
 
 .motto {
 	font-style: italic;
 	font-size: 120%;
-
+	margin-top: -10px;
 }
 
-nav ul {
+nav  {
 	background-color: #D74710;
-	width: 80%;
+	width: 95%;
 	border-radius: 5px;
 	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 nav li {
@@ -64,4 +79,22 @@ nav a:visited {
 nav a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
+}
+
+.grey-line {
+	border-style: solid;
+	border-top: thick double #555;
+}
+
+.footer {
+	font-style: italic;
+	font-size:80%;
+}
+
+.mail {
+	text-decoration: none;
+}
+.mail:link,
+.mail:visited {
+	text-decoration: underline;
 }
