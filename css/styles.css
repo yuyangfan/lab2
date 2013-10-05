@@ -15,6 +15,7 @@ body {
 
 p {
 	padding: 5px;
+	margin: 10px;
 
 }
 
@@ -24,11 +25,10 @@ p {
 	margin: 0 auto;
 	box-shadow: 5px 5px 20px #555: 
 }
-
 .logo {
-	float: left;
 	margin-right: 10px;
-	margin-left: 10px;
+
+	float: left;
 }
 
 .right-pic {
@@ -53,9 +53,10 @@ p {
 
 nav  {
 	background-color: #D74710;
-	width: 95%;
+	width: 98%;
 	border-radius: 5px;
-	margin: 0 auto;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -104,5 +105,20 @@ nav a:hover {
 }
 
 .field {
- 
+	margin: 10px;
+	font-size: 30px;
+	color: #116189;
+	font-weight: bold;
+}
+
+.field2 {
+	margin: 10px;
+	font-size: 20px;
+	color: #116189;
+	font-weight: bold;
+}
+
+.connect {
+	margin-top: -10px;
+	margin-left: 85px;
 }
